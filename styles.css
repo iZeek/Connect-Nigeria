@@ -86,6 +86,7 @@ input[type=checkbox] {
 }
 input[type=text]:focus, select:focus, textarea:focus {
   background-color: #464856;
+  border: 1px solid #464856;
 }
 label {
     font-family: 'Merriweather Sans', sans-serif;
