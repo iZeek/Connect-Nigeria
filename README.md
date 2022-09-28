@@ -1,10 +1,7 @@
 # Connect-Nigeria
-<br><br>
 
-### Hi there, here are some sample designs i made. 👋
+### Here is the live preview for this source code. 👋
 <br>
-
-### Connect Nigeria
 (Live Preview) ==> https://izeek.github.io/Connect-Nigeria/
 
 <br>
