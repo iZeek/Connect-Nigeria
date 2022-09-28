@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Merriweather:wght@300;400;700;900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 0;
+    margin: 0;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+}
+
+/* ####  Flex container #### */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main {
+    flex: 60%;
+    padding: 80px 80px 80px 200px;
+    background-color: #23252F;
+}
+
+/* ####  SideBar styling  #### */
+.side-bar {
+    flex: 40%;
+    padding: 80px 200px 80px 80px;
+    background-color: #464856;
+    padding-top: 250px;
+}
+
+/* ####  Paragraph styling  #### */
+.top-text {
+    padding: 20px;
+    margin-bottom: -30px;
+}
+.date p {
+    font-size: 12px;
+}
+.main p {
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 1.85;
+}
+.main h2 {
+    line-height: 2;
+}
+
+/* ####  Form styling  #### */
+.mobile-display {
+        display: none;
+    }
+form .row-one {
+    float:left;
+    width: 50%;
+    padding: 20px;
+}
+form .row-two {
+    float:left;
+    width: 50%;
+    padding: 20px;
+} 
+.clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #464856;
+  border-radius: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: #fff;
+}
+input[type=checkbox] {
+  background-color: transparent;
+    color: transparent;
+}
+input[type=text]:focus, select:focus, textarea:focus {
+  background-color: #464856;
+}
+label {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+}
+form .more-text {
+    padding: 20px;
+}
+input[type=submit] {
+  background-color: #fff;
+  color: #000;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+input[type=submit]:hover {
+  background-color: #f9f9f9;
+}
+
+/* ####  Style sideBar items  #### */
+.share-icon {
+    margin: 0 5px;
+}
+.share {
+    margin-bottom: 150px;
+}
+.guest img {
+    margin-top: -8px;
+    float: left;
+    margin-right: 20px;
+}
+.guest p {
+    font-size: 12px;
+}
+.hosted {
+    margin-top: 85px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  /* ####  Flex container #### */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main {
+    flex: 100%;
+    padding: 20px;
+    background-color: #23252F;
+}
+
+/* ####  SideBar styling  #### */
+.side-bar {
+    flex: 100%;
+    padding: 20px 20px 20px 50px;
+    background-color: #464856;
+    padding-top: 50px;
+}
+input[type=submit] {
+      padding: 10px 20px;
+      font-size: 13px;
+      margin-top: 15px;
+}
+.form-container {
+        display: none;
+    }
+.mobile-display {
+        display: block;
+    padding: 20px;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide */
+@media screen and (max-width: 400px) {
+  
+}
