@@ -98,7 +98,7 @@ form .more-text {
 }
 input[type=submit] {
   background-color: #fff;
-  color: #8C8C8C;
+  color: #000;
   padding: 20px 30px;
   border: 1px solid #464856;
   border-radius: 0;
@@ -107,13 +107,14 @@ input[type=submit] {
   font-weight: 700;
   font-size: 18px;
   margin-top: 30px;
-  transition: background-color 2s;
+  transition: background-color 3s;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
 input[type=submit]:hover {
-    background-color: rgba(72,72,86,0.2);
+    background-color: rgba(72,72,86,0.5);
+    border: 1px solid #000;
 }
 
 
