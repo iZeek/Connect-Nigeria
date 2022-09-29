@@ -101,20 +101,18 @@ input[type=submit] {
   color: #000;
   padding: 20px 30px;
   border: 1px solid #464856;
-  border-radius: 0;
+  border-radius: 1px;
   cursor: pointer;
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 700;
   font-size: 18px;
   margin-top: 30px;
-  transition: background-color 3s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
+  transition: border-radius 1s ease-in, box-shadow 1s 0.5s; 
 }
 
 input[type=submit]:hover {
-    background-color: rgba(72,72,86,0.5);
-    border: 1px solid #000;
+    border-radius: 50px;
+    box-shadow: 0 14px 20px 0 rgb(255 255 255 / 40%);
 }
 
 
@@ -159,6 +157,8 @@ input[type=submit]:hover {
     background-color: #464856;
     padding-top: 50px;
 }
+    
+/* ####  Style Mobile Form  #### */
 input[type=submit] {
       padding: 10px 20px;
       font-size: 13px;
