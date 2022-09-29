@@ -23,13 +23,19 @@ body {
     flex: 60%;
     padding: 80px 80px 80px 200px;
     background-color: #23252F;
+    z-index: 10;
+/*
+    box-shadow: 100px 1px 60px -67px rgba(125,125,125,0.38);
+-webkit-box-shadow: 100px 1px 60px -67px rgba(125,125,125,0.38);
+-moz-box-shadow: 100px 1px 60px -67px rgba(125,125,125,0.38);
+*/
 }
 
 /* ####  SideBar styling  #### */
 .side-bar {
     flex: 40%;
     padding: 80px 200px 80px 80px;
-    background-color: #464856;
+    background: linear-gradient(90deg, #2D2F38, #464856);
     padding-top: 250px;
 }
 
@@ -113,6 +119,8 @@ input[type=submit] {
 input[type=submit]:hover {
     border-radius: 50px;
     box-shadow: 0 14px 20px 0 rgb(255 255 255 / 40%);
+    -webkit-box-shadow: 0 14px 20px 0 rgb(255 255 255 / 40%);
+    -moz-box-shadow: 0 14px 20px 0 rgb(255 255 255 / 40%);
 }
 
 
